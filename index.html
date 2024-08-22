@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Third Assignment</title>
-    <!-- Google font manrope cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- Font awesome cdn -->
-    <script src="https://kit.fontawesome.com/0a41f7dbfa.js" crossorigin="anonymous"></script>
-    <!-- DaisyUI cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .font-manrope {
-            font-family: "Manrope", sans-serif;
-        }
-    </style>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Third Assignment</title>
+  <!-- Google font manrope cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Font awesome cdn -->
+  <script src="https://kit.fontawesome.com/0a41f7dbfa.js" crossorigin="anonymous"></script>
+  <!-- DaisyUI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-manrope {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'house-primary': '#ABEF5F',
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
+
 <body class="font-manrope">
-    <!-- header section -->
-     <header></header>
-    <!-- main section -->
-     <main></main>
-    <!-- footer section -->
-     <footer></footer>
+  <!-- header section -->
+  <header class="mb-24 bg-gradient-to-b from-base-200 to-white">
+    <nav class="container mx-auto">
+      <div class="navbar">
+        <div class="navbar-start gap-2">
+          <i
+            class="fa-solid fa-arrow-right w-7 h-7 bg-house-primary inline-flex -rotate-45  rounded-full justify-center items-center"></i>
+          <h3 class="text-3xl font-bold">Rinterio</h3>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="font-bold"><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-3">
+          <button class="btn btn-circle hidden bg-white border-[#E9E9E9] md:flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          <button class="btn btn-circle hidden bg-white border-[#E9E9E9] md:flex">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <a class="btn bg-house-primary font-bold text-lg rounded-3xl hidden md:flex">Book Consult <i
+              class="fa-solid fa-arrow-right w-7 h-7 bg-black text-white inline-flex -rotate-45  rounded-full justify-center items-center"></i></a>
+          <button class="btn btn-circle  bg-white border-[#E9E9E9] lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section -->
+    <div class="hero container mx-auto">
+      <div class="hero-content text-center">
+        <div>
+          <div><img class="items-center justify-center mx-auto" src="assets/banner.png" alt="Barn house picture coming soon"></div>
+          <h1 class="text-5xl font-bold">A barn house of this design has a <br> striking appearance</h1>
+          <p class="py-6">
+            This barn house design boasts a striking appearance with its rustic wooden beams, tall windows, <br> and vaulted
+            ceilings, blending traditional charm with modern elegance for a unique architectural statement.
+          </p>
+          <button class="btn font-bold text-lg rounded-3xl border-[#ABEF5F] bg-[#ABEF5F80] content-center px-16 py-4 md:px-6 md:py-3">View Details <i
+              class="fa-solid fa-arrow-right w-7 h-7 bg-house-primary inline-flex -rotate-45  rounded-full justify-center items-center"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main section -->
+  <main></main>
+  <!-- footer section -->
+  <footer></footer>
 </body>
+
 </html>
