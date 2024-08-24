@@ -26,6 +26,7 @@
           colors: {
             clifford: '#da373d',
             'house-primary': '#ABEF5F',
+            'custom-bg': "url('assets/bg.jpg')",
           }
         }
       }
@@ -61,7 +62,7 @@
         <button class="btn btn-circle hidden bg-white border-[#E9E9E9] md:flex">
           <i class="fa-solid fa-cart-shopping"></i>
         </button>
-        <a class="btn bg-house-primary font-bold text-lg rounded-3xl hidden md:flex">Book Consult <i
+        <a class="btn bg-house-primary font-bold text-lg rounded-3xl border border-[#ABEF5F] hidden md:flex">Book Consult <i
             class="fa-solid fa-arrow-right w-7 h-7 bg-black text-white inline-flex -rotate-45  rounded-full justify-center items-center"></i></a>
         <div class="dropdown dropdown-end">
           <button class="btn btn-circle  bg-white border-[#E9E9E9] lg:hidden">
@@ -231,7 +232,8 @@
     <!-- latest portfolio section -->
     <section class="my-24">
       <div class="text-center mb-8 space-y-2">
-        <button class="btn bg-[#ABEF5F33] mb-3 rounded-3xl text-[#494949] py-2 px-4 text-base"><i
+        <button
+          class="btn bg-[#ABEF5F33] mb-3 rounded-3xl border border-[#ABEF5F33] text-[#494949] py-2 px-4 text-base"><i
             class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
         <h3 class="text-4xl font-extrabold text-[#212121] lg:text-5xl">Our Latest Portfolio</h3>
         <p class="text-[#494949]">The newest project reflects our dedication to excellence, offering inspiring and <br>
@@ -267,7 +269,8 @@
             <img class="w-full max-h-48 mb-5 md:mb-0" src="assets/img4.png" alt="House picture coming">
             <div class="space-y-4">
               <h4 class=" font-bold text-2xl text-[#494949]">Commercial</h4>
-              <p class="text-[#737373]">Commercial house design prioritizes functionality and efficient space with a professional appearance.</p>
+              <p class="text-[#737373]">Commercial house design prioritizes functionality and efficient space with a
+                professional appearance.</p>
               <div class="flex gap-2">
                 <h3 class="text-xl font-bold text-[#212121]">View Details</h3>
                 <i
@@ -281,11 +284,122 @@
           <div class="p-4 bg-white rounded-2xl shadow border border-[#E9E9E9]">
             <img class="w-full max-h-48" src="assets/img5.png" alt="House picture coming">
           </div>
-          
+
         </div>
       </div>
     </section>
-
+    <!-- articles and news section -->
+    <section class="bg-base-200 py-24">
+      <div class="text-center mb-8 space-y-2">
+        <button
+          class="btn bg-[#ABEF5F33] mb-3 rounded-3xl border border-[#ABEF5F33] text-[#494949] py-2 px-4 text-base"><i
+            class="fa-solid fa-arrow-right"></i> Rinterio News</button>
+        <h3 class="text-4xl font-extrabold text-[#212121] lg:text-5xl">Read Our Articles and News</h3>
+        <p class="text-[#494949]">Explore our articles and news for insightful updates, industry trends, and creative
+          inspiration and stay informed <br> with expert advice that enrich your understanding of design and innovation.
+        </p>
+      </div>
+      <!-- articles and news cards -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:container mx-auto px-4 lg:px-32">
+        <!-- articles and news card 1 -->
+        <div class="flex flex-col md:flex-row lg:flex-col gap-4 p-6 rounded-2xl border bg-white overflow-hidden">
+          <img src="assets/article1.png" alt="House picture coming">
+          <div class="space-y-2">
+            <span class="text-[#737373] flex gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+              </svg> August 24, 2024 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg> By Admin
+            </span>
+            <h2 class="font-bold text-xl text-[#494949]">How to pick the ideal furniture for your home.</h2>
+            <p class="text-[#737373]">Pick ideal furniture by matching your home's design, size, and practical needs</p>
+            <div class="flex gap-2">
+              <h3 class="text-xl font-bold text-[#212121]">Read More</h3>
+              <i
+                class="fa-solid fa-arrow-right w-7 h-7 bg-house-primary inline-flex -rotate-45  rounded-full justify-center items-center"></i>
+            </div>
+          </div>
+        </div>
+        <!-- articles and news card 2 -->
+        <div class="flex flex-col md:flex-row lg:flex-col gap-4 p-6 rounded-2xl border bg-white overflow-hidden">
+          <img src="assets/article2.png" alt="House picture coming">
+          <div class="space-y-2">
+            <span class="text-[#737373] flex gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+              </svg> August 24, 2024 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg> By Admin
+            </span>
+            <h2 class="font-bold text-xl text-[#494949]">How to choose furniture that suits your home’s.</h2>
+            <p class="text-[#737373]">Choose the right furniture by balancing comfort, aesthetics, and available space.
+            </p>
+            <div class="flex gap-2">
+              <h3 class="text-xl font-bold text-[#212121]">Read More</h3>
+              <i
+                class="fa-solid fa-arrow-right w-7 h-7 bg-house-primary inline-flex -rotate-45  rounded-full justify-center items-center"></i>
+            </div>
+          </div>
+        </div>
+        <!-- articles and news card 3 -->
+        <div class="flex flex-col md:flex-row lg:flex-col gap-4 p-6 rounded-2xl border bg-white overflow-hidden">
+          <img src="assets/article3.png" alt="House picture coming">
+          <div class="space-y-2">
+            <span class="text-[#737373] flex gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+              </svg> August 24, 2024 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg> By Admin
+            </span>
+            <h2 class="font-bold text-xl text-[#494949]">How to select furniture that aligns with your home’s.</h2>
+            <p class="text-[#737373]">Select suitable furniture by blending personal preferences with your home's layout
+              and functionality.</p>
+            <div class="flex gap-2">
+              <h3 class="text-xl font-bold text-[#212121]">Read More</h3>
+              <i
+                class="fa-solid fa-arrow-right w-7 h-7 bg-house-primary inline-flex -rotate-45  rounded-full justify-center items-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- discuss next project section -->
+    <section class="bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat py-28 border-8 border-white">
+      <div class="text-center mb-8 space-y-2">
+        <button class="btn bg-[#ABEF5F33] mb-2 rounded-3xl text-black border border-[#ABEF5F33] px-4 font-extrabold"><i
+            class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
+        <h3 class="text-4xl font-extrabold text-[#212121] lg:text-5xl">Let’s Discuss Next Project</h3>
+        <p class="text-[#494949]">Discussing the next project opens opportunities to transform ideas into reality with
+          creative design and <br> meticulous execution.
+        </p>
+      </div>
+      <div class="grid grid-rows-6 grid-cols-1 md:grid-cols-2 gap-6 md:container mx-auto px-4 lg:px-40">
+        <input type="text" placeholder="First Name*" class="input rounded-3xl" />
+        <input type="text" placeholder="Last Name*" class="input rounded-3xl" />
+        <input type="text" placeholder="Phone Number*" class="input rounded-3xl" />
+        <input type="text" placeholder="Email Number*" class="input rounded-3xl" />
+        <textarea class="textarea rounded-3xl md:row-span-4 md:col-span-2" placeholder="Write your message here"></textarea>
+      </div>
+      <div class="md:container mx-auto px-4 lg:px-40">
+        <a class="btn w-full mt-6 bg-house-primary font-bold text-lg rounded-3xl border border-[#ABEF5F]">Send Mail <i
+          class="fa-solid fa-arrow-right w-7 h-7 bg-black text-white inline-flex -rotate-45  rounded-full justify-center items-center"></i>
+        </a>
+      </div>
+    </section>
   </main>
   <!-- footer section -->
   <footer></footer>
